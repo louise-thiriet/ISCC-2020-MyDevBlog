@@ -1,0 +1,91 @@
+/*front_off.css*/
+@font-face {
+    font-family: "Poltitre";
+    src: url('/ISCC/mydevblog/Assets/04B_30__.TTF');
+}
+@font-face {
+    font-family: "unbutton";
+    src: url('/ISCC/mydevblog/Assets/unbutton.ttf');
+}
+@font-face {
+    font-family: "Geo";
+    src: url('/ISCC/mydevblog/Assets/GeosansLight.ttf');
+}
+.navigation {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Verdana";
+    background: #1C4C66;
+}
+header {
+    background-image: url('/ISCC/mydevblog/Assets/fond_titre.jpg');
+    background-size: auto 8px;
+    padding: 2px;
+}
+header a {
+    color: white;
+    padding: 20px;
+}
+#titre {
+    font-family: "Poltitre";
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.formulaire {
+    width: 300px;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+    border:2px solid #e6e6e6;
+}
+button {
+    margin: auto;
+    background:#1C4C66;
+    border: 5px #1C4C66;
+    color:white;
+    padding: 5px;
+}
+button:hover {
+    background:#e742d5;
+}
+button:active {
+    box-shadow: 2px 2px inset;
+}
+textarea {
+    border:2px solid #e6e6e6;
+    font-family: "Verdana";
+    margin: 10px;
+    text-align: center;
+}
+input {
+    width: 250px;
+    height: 30px;
+    border:2px solid #e6e6e6;
+    margin: 10px;
+}
+body {
+    text-align: center;
+    font-family: "Verdana";
+}
+h2 {
+    font-family: "unbutton";
+}
+footer {
+    font-family: "Geo";
+    background-color:#D2F0F5;
+}
+footer a {
+    color: black;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+}
+.github {
+    width: 200px;
+    height: 200px;
+}
+.link {
+    text-align: left;
+}

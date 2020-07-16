@@ -1,0 +1,70 @@
+/*back_off.css*/
+@font-face {
+    font-family: "Poltitre";
+    src: url('/ISCC/mydevblog/Assets/04B_30__.TTF');
+}
+@font-face {
+    font-family: "Geo";
+    src: url('/ISCC/mydevblog/Assets/GeosansLight.ttf');
+}
+@font-face {
+    font-family: "unbutton";
+    src: url('/ISCC/mydevblog/Assets/unbutton.ttf');
+}
+.navigation {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Verdana";
+    background: #1C4C66;
+}
+header {
+    background-image: url('/ISCC/mydevblog/Assets/SI_3DSVC_SuperMarioBros_image1280w.jpg');
+    background-size: auto 8px;
+    padding: 2px;
+}
+header a {
+    color: white;
+    padding: 20px;
+}
+#titre {
+    font-family: "Poltitre";
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.formulaire {
+    width: 300px;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+    border:2px solid #e6e6e6;
+}
+button {
+    margin: auto;
+    background:#1C4C66;
+    border: 5px #1C4C66;
+    color:white;
+    padding: 5px;
+}
+input {
+    width: 250px;
+    height: 30px;
+    border:2px solid #e6e6e6;
+    margin: 10px;
+}
+body {
+    text-align: center;
+    font-family: "Verdana";
+}
+h2 {
+    font-family: "unbutton";
+}
+footer {
+    font-family: "Geo";
+}
+textarea {
+    border:2px solid #e6e6e6;
+    font-family: "Verdana";
+    margin: 10px;
+    text-align: center;
+}
